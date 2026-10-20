@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - name: hola
-        runs: echo hola
+        run: echo hola
