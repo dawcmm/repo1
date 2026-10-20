@@ -1,0 +1,15 @@
+name: Compilar y publicar
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: hola
+        runs: echo hola
